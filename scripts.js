@@ -31,7 +31,8 @@ function AddRow() {
     var removeCell = row.insertCell(4);
 
     document.getElementById("totalRowId").innerHTML = table.rows.length - 1;
-    document.getElementById("totalRowAmountId").innerHTML = ParseToDollars(total);
+    var newTotalAmount = ParseToDollars(total);
+    document.getElementById("totalRowAmountId").innerHTML = newTotalAmount;
 
     idCell.innerHTML = table.rows.length - 2;
     nameCell.innerHTML = name;
