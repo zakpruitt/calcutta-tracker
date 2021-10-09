@@ -1,0 +1,22 @@
+ .add-person {
+     margin-top: 5% !important; 
+     max-width: 50%;
+     margin: 0 auto;
+ }
+
+ .toast {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 1%;
+    margin-right: 1%;
+ }
+ 
+ .table {
+    margin-top: 10%;
+    text-align: center;
+ }
+
+ .tableBody {
+    display: inline-block;
+ }
